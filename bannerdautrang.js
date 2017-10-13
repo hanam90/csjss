@@ -117,8 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/ZY3G5F
-' target='_blank'><img src='http://chovietonline.net/image/cache/data/hatdieu/hatdieutuoirangcuinguyenchatloai2-200x200_0.jpg' width='500px'/><br/>hạt điều rang củi chất lượng</a>.Hotline: 0908994567. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/ZY3G5F' target='_blank'><img src='http://chovietonline.net/image/cache/data/hatdieu/hatdieutuoirangcuinguyenchatloai2-200x200_0.jpg' width='500px'/><br/>hạt điều rang củi chất lượng</a>.Hotline: 0908994567. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
